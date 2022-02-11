@@ -127,6 +127,7 @@ const evaluate = (state) => {
       case "/":
         computation = prev / current
         break
+      default: computation = ""
   }
   return computation.toString();
 }
